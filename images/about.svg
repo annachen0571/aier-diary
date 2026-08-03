@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="440" viewBox="0 0 520 440">
+  <rect width="520" height="440" fill="#FAF4EC"/>
+  <!-- 房子 -->
+  <path d="M110 250 L260 150 L410 250 Z" fill="#C8924F"/>
+  <rect x="150" y="250" width="220" height="130" fill="#F0E2D0"/>
+  <rect x="150" y="250" width="220" height="130" fill="none" stroke="#C8924F" stroke-width="4"/>
+  <rect x="240" y="300" width="40" height="80" fill="#B07D4F"/>
+  <rect x="300" y="280" width="44" height="44" rx="4" fill="#E0A96D"/>
+  <!-- 三个人 铁三角 -->
+  <g>
+    <circle cx="180" cy="320" r="26" fill="#8A5A33"/>
+    <path d="M150 410 C150 365 210 365 210 410 Z" fill="#9C6B40"/>
+  </g>
+  <g>
+    <circle cx="260" cy="305" r="30" fill="#B07D4F"/>
+    <path d="M224 410 C224 358 296 358 296 410 Z" fill="#B07D4F"/>
+  </g>
+  <g>
+    <circle cx="340" cy="320" r="26" fill="#C97B4A"/>
+    <path d="M310 410 C310 365 370 365 370 410 Z" fill="#C97B4A"/>
+  </g>
+  <!-- 对话气泡 -->
+  <circle cx="410" cy="120" r="34" fill="#E0A96D"/>
+  <path d="M398 148 L388 172 L418 150 Z" fill="#E0A96D"/>
+  <text x="410" y="128" font-size="30" text-anchor="middle" fill="#FFFFFF">💬</text>
+</svg>

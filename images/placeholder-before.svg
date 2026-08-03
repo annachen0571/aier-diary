@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e0d8cf"/>
+  <text x="200" y="140" text-anchor="middle" fill="#9B8D7D" font-size="32" font-family="sans-serif">改造前</text>
+  <text x="200" y="170" text-anchor="middle" fill="#B5A899" font-size="13" font-family="sans-serif">替换为实际照片</text>
+</svg>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="艾尔日记需求沟通 — 填一份简单的需求表，把你的想法告诉我们，我们帮你把家变成想要的样子。">
+  <title>需求沟通 — 艾尔日记</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">🏠 艾尔<span>日记</span></a>
+    <button class="nav-toggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="cases.html">案例展示</a></li>
+      <li><a href="about.html">关于我们</a></li>
+      <li><a href="wiki.html">装修百科</a></li>
+      <li><a href="process.html">服务流程</a></li>
+      <li><a href="inquiry.html" class="active">需求沟通</a></li>
+      <li><a href="contact.html">联系我们</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <h1>需求沟通</h1>
+  <p class="subtitle">花 3 分钟填一下，我们拿到的不只是"我要装修"，而是你的真实需求。<br>填完可以直接加微信，我们聊聊。</p>
+</section>
+
+<section class="form-section">
+  <div class="form-wrapper">
+    <form id="inquiry-form">
+      <div class="form-group">
+        <label>你的称呼 *</label>
+        <input type="text" name="name" placeholder="怎么称呼你？" required>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>联系方式（微信/电话） *</label>
+          <input type="text" name="contact" placeholder="方便我们联系你" required>
+        </div>
+        <div class="form-group">
+          <label>房屋所在区域</label>
+          <select name="district">
+            <option value="">请选择</option>
+            <option>上城区</option>
+            <option>拱墅区</option>
+            <option>西湖区</option>
+            <option>滨江区</option>
+            <option>萧山区</option>
+            <option>余杭区</option>
+            <option>临平区</option>
+            <option>钱塘区</option>
+            <option>富阳区</option>
+            <option>临安区</option>
+            <option>其他</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>房屋面积</label>
+          <input type="text" name="area" placeholder="比如：62㎡">
+        </div>
+        <div class="form-group">
+          <label>房龄</label>
+          <select name="age">
+            <option value="">请选择</option>
+            <option>新房/次新房（5年以内）</option>
+            <option>10 年左右</option>
+            <option>15-20 年</option>
+            <option>20 年以上老房子</option>
+            <option>不太清楚</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>房屋类型</label>
+          <select name="type">
+            <option value="">请选择</option>
+            <option>家装 — 老破小改造</option>
+            <option>家装 — 新房装修</option>
+            <option>家装 — 局部翻新</option>
+            <option>工装 — 办公室/商铺</option>
+            <option>工装 — 餐饮/教育/其他</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>楼层</label>
+          <select name="floor">
+            <option value="">请选择</option>
+            <option>一楼</option>
+            <option>中间楼层（有电梯）</option>
+            <option>中间楼层（无电梯）</option>
+            <option>顶楼</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>家庭成员情况</label>
+        <input type="text" name="family" placeholder="比如：夫妻 + 一个 3 岁小孩 + 一只猫">
+        <span class="help-text">这会帮助我们更好地规划空间和收纳</span>
+      </div>
+
+      <div class="form-group">
+        <label>特殊需求（可多选）</label>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;">
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+            <input type="checkbox" name="needs" value="适老改造"> 适老化改造
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+            <input type="checkbox" name="needs" value="儿童/育儿"> 儿童友好 / 育儿
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+            <input type="checkbox" name="needs" value="宠物"> 宠物友好
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+            <input type="checkbox" name="needs" value="居家办公"> 居家办公
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+            <input type="checkbox" name="needs" value="收纳"> 收纳不足
+          </label>
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;cursor:pointer">
+            <input type="checkbox" name="needs" value="采光"> 采光改善
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>风格偏好</label>
+        <select name="style">
+          <option value="">没有概念，需要建议</option>
+          <option>原木风 / 日式</option>
+          <option>现代简约</option>
+          <option>北欧风</option>
+          <option>新中式</option>
+          <option>轻法式</option>
+          <option>混搭</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>预算区间</label>
+        <select name="budget">
+          <option value="">请选择</option>
+          <option>8 万以下</option>
+          <option>8-12 万</option>
+          <option>12-18 万</option>
+          <option>18-25 万</option>
+          <option>25 万以上</option>
+          <option>还没有概念</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>说说你家的困扰和期待</label>
+        <textarea name="message" placeholder="比如：厨房太小转不开身、客厅采光不好、想给爸妈做适老化改造、收纳不够用……想到什么说什么，不用组织语言。"></textarea>
+      </div>
+
+      <div class="form-submit">
+        <button type="submit" class="btn btn-primary">提交需求</button>
+        <p style="margin-top:16px;color:var(--text-muted);font-size:0.85rem;">
+          提交后我们会尽快联系你，也可以直接 <a href="contact.html">加微信</a> 随时沟通
+        </p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p><span class="footer-name">艾尔日记</span> — 在杭州，给家一个更好的样子</p>
+  <p>© 2026 艾尔日记 | 杭州老破小改造</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// 表单提交处理（示意 — 可以接入 formspree 等免费服务）
+document.getElementById('inquiry-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('感谢你的需求！我们会尽快联系你。\n\n也可以直接加微信：请在联系页面查看二维码。');
+});
+</script>
+</body>
+</html>

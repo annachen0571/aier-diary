@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520">
+  <!-- 背景 -->
+  <rect width="640" height="520" fill="#FAF4EC"/>
+  <!-- 后墙 -->
+  <rect x="40" y="40" width="560" height="360" rx="14" fill="#F0E2D0"/>
+  <!-- 地板 -->
+  <path d="M40 400 L600 400 L600 480 L40 480 Z" fill="#D9A86C"/>
+  <path d="M40 400 L600 400 L600 412 L40 412 Z" fill="#C8924F"/>
+  <!-- 窗户 -->
+  <rect x="70" y="80" width="150" height="180" rx="8" fill="#EBD9BE"/>
+  <rect x="80" y="90" width="130" height="160" rx="4" fill="#F6E4C8"/>
+  <line x1="145" y1="90" x2="145" y2="250" stroke="#C8924F" stroke-width="4"/>
+  <line x1="80" y1="170" x2="210" y2="170" stroke="#C8924F" stroke-width="4"/>
+  <!-- 窗外小树 -->
+  <circle cx="150" cy="180" r="26" fill="#9CAE7E"/>
+  <rect x="146" y="200" width="8" height="30" fill="#8A5A33"/>
+  <!-- 挂画 -->
+  <rect x="300" y="95" width="110" height="80" rx="4" fill="#FFFFFF" stroke="#C8924F" stroke-width="3"/>
+  <path d="M312 150 L335 125 L355 145 L375 120 L398 150 Z" fill="#C97B4A"/>
+  <circle cx="330" cy="120" r="9" fill="#E0A96D"/>
+  <!-- 沙发 -->
+  <rect x="300" y="290" width="220" height="80" rx="16" fill="#B07D4F"/>
+  <rect x="300" y="270" width="220" height="50" rx="14" fill="#C28A56"/>
+  <rect x="288" y="285" width="40" height="85" rx="14" fill="#9C6B40"/>
+  <rect x="492" y="285" width="40" height="85" rx="14" fill="#9C6B40"/>
+  <rect x="330" y="300" width="50" height="50" rx="10" fill="#E0A96D"/>
+  <rect x="440" y="300" width="50" height="50" rx="10" fill="#E0A96D"/>
+  <!-- 茶几 -->
+  <ellipse cx="410" cy="385" rx="55" ry="14" fill="#8A5A33"/>
+  <rect x="375" y="385" width="70" height="10" fill="#8A5A33"/>
+  <!-- 落地灯 -->
+  <rect x="560" y="250" width="6" height="150" fill="#6B4E3D"/>
+  <path d="M538 250 L588 250 L575 215 L551 215 Z" fill="#E0A96D"/>
+  <!-- 绿植 -->
+  <rect x="95" y="350" width="46" height="50" rx="6" fill="#C97B4A"/>
+  <path d="M118 350 C100 320 110 295 118 280 C126 295 136 320 118 350 Z" fill="#9CAE7E"/>
+  <path d="M118 355 C140 335 150 315 150 300 C150 320 138 345 118 355 Z" fill="#B7C49A"/>
+  <!-- 地毯 -->
+  <ellipse cx="410" cy="415" rx="180" ry="22" fill="#EBD3B0" opacity="0.6"/>
+</svg>
