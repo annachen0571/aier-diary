@@ -235,13 +235,17 @@ img { max-width: 100%; height: auto; display: block; }
 .about-hero-img {
   display: flex;
   justify-content: center;
-  margin: 0 auto 4px;
+  margin: 0 auto 8px;
 }
 .about-intro { margin-top: 0; }
 .about-hero-img img {
-  width: 100%;
-  max-width: 420px;
+  width: auto;
+  max-width: 220px;
   height: auto;
+  max-height: 160px;
+}
+@media (max-width: 480px) {
+  .about-hero-img img { max-width: 160px; max-height: 120px; }
 }
 
 /* ===== 联系页装饰 ===== */
